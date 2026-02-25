@@ -1,0 +1,253 @@
+2026-02-25 23:34:12,433 | INFO | WildPulse Pi Agent Starting...
+2026-02-25 23:34:12,434 | INFO | Orchestrator initialized
+2026-02-25 23:34:12,434 | INFO | Starting main loop
+2026-02-25 23:34:12,434 | INFO | Capturing image...
+2026-02-25 23:34:12,434 | INFO | Detected Visayan Spotted Deer (0.44)
+2026-02-25 23:34:12,434 | INFO | Confidence below local threshold. Discarding.
+2026-02-25 23:34:15,434 | INFO | Capturing image...
+2026-02-25 23:34:15,434 | INFO | Detected Visayan Spotted Deer (0.55)
+2026-02-25 23:34:15,434 | INFO | Event passed local filter. Ready to queue/upload.
+2026-02-25 23:34:20,434 | INFO | Capturing image...
+2026-02-25 23:34:20,435 | INFO | Detected Dog (0.63)
+2026-02-25 23:34:20,435 | INFO | Event passed local filter. Ready to queue/upload.
+2026-02-25 23:34:25,435 | INFO | Capturing image...
+2026-02-25 23:34:25,435 | INFO | Detected Dog (0.48)
+2026-02-25 23:34:25,435 | INFO | Confidence below local threshold. Discarding.
+2026-02-25 23:34:28,435 | INFO | Capturing image...
+2026-02-25 23:34:28,436 | INFO | Detected Cat (0.58)
+2026-02-25 23:34:28,436 | INFO | Event passed local filter. Ready to queue/upload.
+2026-02-25 23:34:33,436 | INFO | Capturing image...
+2026-02-25 23:34:33,436 | INFO | Detected Cat (0.72)
+2026-02-25 23:34:33,436 | INFO | Event passed local filter. Ready to queue/upload.
+2026-02-25 23:34:38,436 | INFO | Capturing image...
+2026-02-25 23:34:38,437 | INFO | Detected Dog (0.57)
+2026-02-25 23:34:38,437 | INFO | Event passed local filter. Ready to queue/upload.
+2026-02-25 23:34:43,437 | INFO | Capturing image...
+2026-02-25 23:34:43,438 | INFO | Detected Cat (0.9)
+2026-02-25 23:34:43,438 | INFO | Event passed local filter. Ready to queue/upload.
+2026-02-25 23:34:48,438 | INFO | Capturing image...
+2026-02-25 23:34:48,438 | INFO | Detected Visayan Spotted Deer (0.62)
+2026-02-25 23:34:48,438 | INFO | Event passed local filter. Ready to queue/upload.
+2026-02-25 23:34:53,438 | INFO | Capturing image...
+2026-02-25 23:34:53,440 | INFO | Detected Dog (0.69)
+2026-02-25 23:34:53,440 | INFO | Event passed local filter. Ready to queue/upload.
+2026-02-25 23:37:33,589 | INFO | WildPulse Pi Agent Starting...
+2026-02-25 23:41:09,561 | INFO | WildPulse Pi Agent Starting...
+2026-02-25 23:42:00,275 | INFO | WildPulse Pi Agent Starting...
+2026-02-25 23:42:00,300 | INFO | Motion sensor initialized on GPIO 17
+2026-02-25 23:42:00,300 | INFO | Orchestrator initialized
+2026-02-25 23:42:00,300 | INFO | System armed. Waiting for motion...
+2026-02-25 23:42:00,300 | INFO | Waiting for motion...
+2026-02-25 23:42:12,714 | INFO | Motion detected!
+2026-02-25 23:42:14,719 | INFO | Image saved: data/images/capture_20260225_154212.jpg
+2026-02-25 23:42:14,719 | INFO | Detected Dog (0.81)
+2026-02-25 23:42:14,719 | INFO | Event passed local filter. Ready for queue/upload.
+2026-02-25 23:42:19,719 | INFO | Waiting for motion...
+2026-02-25 23:43:12,099 | INFO | Motion detected!
+2026-02-25 23:43:13,437 | INFO | Image saved: data/images/capture_20260225_154312.jpg
+2026-02-25 23:43:13,437 | INFO | Detected Dog (0.45)
+2026-02-25 23:43:13,437 | INFO | Confidence below threshold. Discarding.
+2026-02-25 23:43:13,437 | INFO | Waiting for motion...
+2026-02-25 23:48:48,051 | INFO | WildPulse Pi Agent Starting...
+2026-02-25 23:48:48,062 | INFO | Motion sensor initialized on GPIO 17
+2026-02-25 23:48:48,077 | INFO | Orchestrator initialized
+2026-02-25 23:48:48,077 | INFO | System armed. Waiting for motion...
+2026-02-25 23:48:48,077 | INFO | Waiting for motion...
+2026-02-25 23:50:13,880 | INFO | Motion detected!
+2026-02-25 23:50:15,204 | INFO | Image saved: data/images/capture_20260225_155013.jpg
+2026-02-25 23:50:15,205 | INFO | Detected Dog (0.77)
+2026-02-25 23:50:15,217 | INFO | Event added to local queue.
+2026-02-25 23:50:20,217 | INFO | Waiting for motion...
+2026-02-25 23:52:00,720 | INFO | Motion detected!
+2026-02-25 23:52:02,042 | INFO | Image saved: data/images/capture_20260225_155200.jpg
+2026-02-25 23:52:02,044 | INFO | Detected Visayan Spotted Deer (0.76)
+2026-02-25 23:52:02,056 | INFO | Event added to local queue.
+2026-02-25 23:52:07,057 | INFO | Waiting for motion...
+2026-02-25 23:53:13,819 | INFO | Motion detected!
+2026-02-25 23:53:15,146 | INFO | Image saved: data/images/capture_20260225_155313.jpg
+2026-02-25 23:53:15,146 | INFO | Detected Dog (0.53)
+2026-02-25 23:53:15,160 | INFO | Event added to local queue.
+2026-02-25 23:53:20,160 | INFO | Waiting for motion...
+2026-02-25 23:53:21,228 | INFO | Motion detected!
+2026-02-25 23:53:22,525 | INFO | Image saved: data/images/capture_20260225_155321.jpg
+2026-02-25 23:53:22,526 | INFO | Detected Cat (0.86)
+2026-02-25 23:53:22,535 | INFO | Event added to local queue.
+2026-02-25 23:53:27,536 | INFO | Waiting for motion...
+2026-02-25 23:53:27,536 | INFO | Motion detected!
+2026-02-25 23:53:28,814 | INFO | Image saved: data/images/capture_20260225_155327.jpg
+2026-02-25 23:53:28,814 | INFO | Detected Cat (0.46)
+2026-02-25 23:53:28,814 | INFO | Confidence below threshold. Discarding.
+2026-02-25 23:53:28,815 | INFO | Waiting for motion...
+2026-02-25 23:55:39,876 | INFO | WildPulse Pi Agent Starting...
+2026-02-25 23:55:39,881 | INFO | Motion sensor initialized on GPIO 17
+2026-02-25 23:55:39,882 | INFO | Orchestrator initialized
+2026-02-25 23:55:39,883 | INFO | Starting upload worker thread...
+2026-02-25 23:55:39,883 | INFO | System armed. Waiting for motion...
+2026-02-25 23:55:39,883 | INFO | Waiting for motion...
+2026-02-25 23:55:39,891 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff684078c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-25 23:55:39,906 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff68118410>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-25 23:55:39,923 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff68118e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-25 23:55:41,935 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff6810d940>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-25 23:55:41,949 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff6810e190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-25 23:55:41,965 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff680c69f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-25 23:55:43,980 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff68144380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-25 23:55:43,995 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff68144af0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-25 23:55:44,009 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff68144d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:14:56,788 | INFO | WildPulse Pi Agent Starting...
+2026-02-26 01:14:56,801 | INFO | Motion sensor initialized on GPIO 17
+2026-02-26 01:14:56,801 | INFO | Orchestrator initialized
+2026-02-26 01:14:56,802 | INFO | Starting upload worker thread...
+2026-02-26 01:14:56,802 | INFO | System armed. Waiting for motion...
+2026-02-26 01:14:56,802 | INFO | Waiting for motion...
+2026-02-26 01:14:56,806 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee47b78c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:14:56,822 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44c82d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:14:56,836 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44c8cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:14:58,853 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44bd940>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:14:58,868 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44be190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:14:58,883 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44769f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:00,898 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44f0380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:00,912 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44f0af0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:00,928 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44f0d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:02,943 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fdf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:02,958 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fce0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:02,977 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f9b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:04,990 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f680>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:05,005 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f8a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:05,020 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:07,036 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f240>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:07,051 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f130>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:07,065 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ee00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:09,081 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ef10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:09,096 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447e9c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:09,110 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee4510160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:11,125 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee4510380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:11,140 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee45105a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:11,162 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447e9c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:13,177 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ead0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:13,193 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ebe0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:13,212 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ecf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:15,225 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f020>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:15,241 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f460>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:15,258 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f570>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:17,273 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f790>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:17,289 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fac0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:17,304 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fbd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:19,321 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ff00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:19,337 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44e8160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:19,354 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44e8380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:21,369 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44e85a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:21,386 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ff00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:21,403 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fdf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:23,429 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fce0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:23,444 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f9b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:23,463 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f680>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:25,477 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f8a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:25,491 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:25,506 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f240>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:27,521 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f130>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:27,537 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ee00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:27,552 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ef10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:29,568 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44d4160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:29,582 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44d4380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:29,597 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44d45a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:31,616 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44d47c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:31,634 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ef10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:31,648 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447e9c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:33,661 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ead0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:33,678 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ebe0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:33,695 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ecf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:35,708 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f020>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:35,721 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f460>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:35,736 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f570>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:37,750 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f790>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:37,764 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fac0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:37,778 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fbd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:39,793 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44d46b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:39,809 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44d4490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:39,822 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee44d4270>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:41,850 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fbd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:41,868 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447ff00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:41,884 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fdf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:43,898 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447fce0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:43,915 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f9b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:15:43,928 | ERROR | Upload exception: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffee447f680>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-02-26 01:19:08,781 | INFO | WildPulse Pi Agent Starting...
+2026-02-26 01:19:08,796 | INFO | Motion sensor initialized on GPIO 17
+2026-02-26 01:19:08,796 | INFO | Orchestrator initialized
+2026-02-26 01:19:08,797 | INFO | Starting upload worker thread...
+2026-02-26 01:19:08,797 | INFO | System armed. Waiting for motion...
+2026-02-26 01:19:08,797 | INFO | Waiting for motion...
+2026-02-26 01:19:08,996 | INFO | Motion detected!
+2026-02-26 01:19:09,251 | WARNING | Upload failed: 401
+2026-02-26 01:19:10,262 | INFO | Image saved: data/images/capture_20260225_171908.jpg
+2026-02-26 01:19:10,262 | INFO | Detected Visayan Spotted Deer (0.73)
+2026-02-26 01:19:10,274 | INFO | Event added to local queue.
+2026-02-26 01:19:11,431 | WARNING | Upload failed: 401
+2026-02-26 01:19:11,751 | WARNING | Upload failed: 401
+2026-02-26 01:19:14,183 | WARNING | Upload failed: 401
+2026-02-26 01:19:15,274 | INFO | Waiting for motion...
+2026-02-26 01:19:15,607 | INFO | Motion detected!
+2026-02-26 01:19:16,278 | WARNING | Upload failed: 401
+2026-02-26 01:19:16,895 | INFO | Image saved: data/images/capture_20260225_171915.jpg
+2026-02-26 01:19:16,895 | INFO | Detected Visayan Spotted Deer (0.61)
+2026-02-26 01:19:16,905 | INFO | Event added to local queue.
+2026-02-26 01:19:17,023 | WARNING | Upload failed: 401
+2026-02-26 01:19:19,824 | WARNING | Upload failed: 401
+2026-02-26 01:19:20,669 | WARNING | Upload failed: 401
+2026-02-26 01:19:21,906 | INFO | Waiting for motion...
+2026-02-26 01:19:21,906 | INFO | Motion detected!
+2026-02-26 01:19:22,184 | WARNING | Upload failed: 401
+2026-02-26 01:19:23,197 | INFO | Image saved: data/images/capture_20260225_171921.jpg
+2026-02-26 01:19:23,198 | INFO | Detected Dog (0.95)
+2026-02-26 01:19:23,207 | INFO | Event added to local queue.
+2026-02-26 01:23:57,165 | INFO | WildPulse Pi Agent Starting...
+2026-02-26 01:23:57,179 | INFO | Motion sensor initialized on GPIO 17
+2026-02-26 01:23:57,180 | INFO | Orchestrator initialized
+2026-02-26 01:23:57,180 | INFO | Starting upload worker thread...
+2026-02-26 01:23:57,180 | INFO | System armed. Waiting for motion...
+2026-02-26 01:23:57,180 | INFO | Waiting for motion...
+2026-02-26 01:23:57,380 | INFO | Motion detected!
+2026-02-26 01:23:58,625 | INFO | Image saved: data/images/capture_20260225_172357.jpg
+2026-02-26 01:23:58,625 | INFO | Detected Cat (0.8)
+2026-02-26 01:23:58,649 | INFO | Event added to local queue.
+2026-02-26 01:24:03,333 | WARNING | Upload failed: 500
+2026-02-26 01:24:03,649 | INFO | Waiting for motion...
+2026-02-26 01:24:03,649 | INFO | Motion detected!
+2026-02-26 01:24:04,918 | INFO | Image saved: data/images/capture_20260225_172403.jpg
+2026-02-26 01:24:04,918 | INFO | Detected Dog (0.9)
+2026-02-26 01:24:04,934 | INFO | Event added to local queue.
+2026-02-26 01:24:09,934 | INFO | Waiting for motion...
+2026-02-26 01:24:11,967 | WARNING | Upload failed: 201
+2026-02-26 01:24:11,999 | INFO | Motion detected!
+2026-02-26 01:24:13,275 | INFO | Image saved: data/images/capture_20260225_172411.jpg
+2026-02-26 01:24:13,276 | INFO | Detected Cat (0.72)
+2026-02-26 01:24:13,289 | INFO | Event added to local queue.
+2026-02-26 01:24:17,526 | WARNING | Upload failed: 201
+2026-02-26 01:24:18,289 | INFO | Waiting for motion...
+2026-02-26 01:24:19,709 | INFO | Motion detected!
+2026-02-26 01:24:20,994 | INFO | Image saved: data/images/capture_20260225_172419.jpg
+2026-02-26 01:24:20,995 | INFO | Detected Dog (0.41)
+2026-02-26 01:24:20,995 | INFO | Confidence below threshold. Discarding.
+2026-02-26 01:24:20,995 | INFO | Waiting for motion...
+2026-02-26 01:24:20,995 | INFO | Motion detected!
+2026-02-26 01:24:22,242 | INFO | Image saved: data/images/capture_20260225_172420.jpg
+2026-02-26 01:24:22,242 | INFO | Detected Cat (0.4)
+2026-02-26 01:24:22,243 | INFO | Confidence below threshold. Discarding.
+2026-02-26 01:24:22,243 | INFO | Waiting for motion...
+2026-02-26 01:24:25,517 | INFO | Motion detected!
+2026-02-26 01:24:26,066 | WARNING | Upload failed: 201
+2026-02-26 01:24:26,794 | INFO | Image saved: data/images/capture_20260225_172425.jpg
+2026-02-26 01:24:26,795 | INFO | Detected Visayan Spotted Deer (0.56)
+2026-02-26 01:24:26,808 | INFO | Event added to local queue.
+2026-02-26 01:24:31,809 | INFO | Waiting for motion...
+2026-02-26 01:24:33,025 | WARNING | Upload failed: 201
+2026-02-26 01:24:33,226 | INFO | Motion detected!
+2026-02-26 01:24:34,520 | INFO | Image saved: data/images/capture_20260225_172433.jpg
+2026-02-26 01:24:34,522 | INFO | Detected Cat (0.61)
+2026-02-26 01:24:34,534 | INFO | Event added to local queue.
+2026-02-26 01:24:38,802 | WARNING | Upload failed: 201
+2026-02-26 01:24:39,535 | INFO | Waiting for motion...
+2026-02-26 01:24:41,037 | INFO | Motion detected!
+2026-02-26 01:24:42,307 | INFO | Image saved: data/images/capture_20260225_172441.jpg
+2026-02-26 01:24:42,307 | INFO | Detected Visayan Spotted Deer (0.53)
+2026-02-26 01:24:42,318 | INFO | Event added to local queue.

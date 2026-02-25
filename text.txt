@@ -1,0 +1,14 @@
+   SRGGB8,1640x1232/0 - Score: 7744
+    SRGGB8,1920x1080/0 - Score: 7655.48
+    SRGGB8,3280x2464/0 - Score: 2000
+Stream configuration adjusted
+[1:39:27.429677881] [3352]  INFO Camera camera.cpp:1215 configuring streams: (0) 3280x2464-YUV420/sYCC (1) 1640x1232-YUV420/sYCC (2) 3280x2464-BGGR_PISP_COMP1/RAW
+[1:39:27.429852622] [3355]  INFO RPI pisp.cpp:1485 Sensor: /base/axi/pcie@1000120000/rp1/i2c@88000/imx219@10 - Selected sensor format: 3280x2464-SBGGR10_1X10/RAW - Selected CFE format: 3280x2464-PC1B/RAW
+2026-02-26 01:19:16,278 | WARNING | Upload failed: 401
+Still capture image received
+2026-02-26 01:19:16,895 | INFO | Image saved: data/images/capture_20260225_171915.jpg
+2026-02-26 01:19:16,895 | INFO | Detected Visayan Spotted Deer (0.61)
+2026-02-26 01:19:16,905 | INFO | Event added to local queue.
+2026-02-26 01:19:17,023 | WARNING | Upload failed: 401
+
+
