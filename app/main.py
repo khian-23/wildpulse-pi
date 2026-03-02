@@ -1,3 +1,5 @@
+import os
+os.environ["GPIOZERO_PIN_FACTORY"] = "lgpio"
 from app.services.orchestrator import Orchestrator
 from app.utils.logger import get_logger
 

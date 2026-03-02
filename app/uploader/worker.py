@@ -34,11 +34,13 @@ class UploadWorker:
 
         try:
             with open(image_path, "rb") as img:
-                files = {"image": img}
+                files = {
+                    "image": ("capture.jpg", img, "image/jpeg")
+                }
                 data = {
                     "device_id": config.DEVICE_ID,
                     "species": species,
-                    "confidence": confidence
+                    "confidence": float(confidence)
                 }
                 headers = {
                     "x-device-key": config.DEVICE_MASTER_SECRET
@@ -49,16 +51,16 @@ class UploadWorker:
                     files=files,
                     data=data,
                     headers=headers,
-                    timeout=10
+                    timeout=30
                 )
 
-            if response.status_code == 200:
-                logger.info(f"Upload success for event {event_id}")
-                self.queue.mark_uploaded(event_id)
-                os.remove(image_path)
-            else:
-                logger.warning(f"Upload failed: {response.status_code}")
-                self.queue.mark_failed(event_id)
+                if response.status_code in (200, 201):
+                    logger.info(f"Upload success for event {event_id} ({response.status_code})")
+                    self.queue.mark_uploaded(event_id)
+                    os.remove(image_path)
+                else:
+                    logger.warning(f"Upload failed: {response.status_code}")
+                    self.queue.mark_failed(event_id)
 
         except Exception as e:
             logger.error(f"Upload exception: {e}")
@@ -66,7 +68,7 @@ class UploadWorker:
 
     def run(self):
         while self.running:
-            events = self.queue.get_pending_events(limit=3)
+            events = self.queue.get_pending_events(limit=1)
 
             if not events:
                 time.sleep(5)

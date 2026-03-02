@@ -6,7 +6,7 @@ load_dotenv()
 class Config:
     DEVICE_ID = os.getenv("DEVICE_ID", "pi-001")
     DEVICE_SECRET = os.getenv("DEVICE_SECRET", "")
-    BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:3000")
+    BACKEND_URL = os.getenv("BACKEND_URL", "http://192.168.1.121:3000")
     DEVICE_MASTER_SECRET = os.getenv("DEVICE_MASTER_SECRET", "super_secret_key")
     MIN_CONFIDENCE_LOCAL = float(os.getenv("MIN_CONFIDENCE_LOCAL", 0.50))
 
