@@ -1,19 +1,12 @@
 import time
-import numpy as np
-from PIL import Image
-import tensorflow as tf
-from tensorflow.keras.applications.mobilenet_v2 import (
-    MobileNetV2,
-    preprocess_input,
-    decode_predictions
-)
-
 from app.capture.camera import Camera
 from app.capture.motion import MotionDetector
 from app.config import config
 from app.utils.logger import get_logger
 from app.uploader.retry_queue import RetryQueue
 from app.uploader.worker import UploadWorker
+
+from ultralytics import YOLO
 
 logger = get_logger()
 
@@ -24,44 +17,39 @@ class Orchestrator:
         self.camera = Camera()
         self.motion = MotionDetector()
         self.queue = RetryQueue()
-        self.worker = UploadWorker()
-        self.worker.start()
-
-        logger.info("Loading MobileNetV2 model...")
-        self.model = MobileNetV2(weights="imagenet")
-        logger.info("MobileNetV2 model loaded successfully")
 
         logger.info("Orchestrator initialized")
 
+        logger.info("Loading YOLOv8 Nano model...")
+        self.model = YOLO("yolov8n.pt")
+
+        self.worker = UploadWorker()
+        self.worker.start()
+
     def classify(self, image_path):
-        try:
-            # Load image
-            img = Image.open(image_path).convert("RGB")
-            img = img.resize((224, 224))
+        results = self.model(image_path, verbose=False)
 
-            # Convert to numpy array
-            img_array = np.array(img)
-            img_array = np.expand_dims(img_array, axis=0)
+        if not results or len(results[0].boxes) == 0:
+            logger.info("No objects detected.")
+            return None, 0.0
 
-            # Preprocess for MobileNetV2
-            img_array = preprocess_input(img_array)
+        boxes = results[0].boxes
+        names = results[0].names
 
-            # Run inference
-            predictions = self.model.predict(img_array, verbose=0)
+        best_conf = 0
+        best_label = None
 
-            # Decode top prediction
-            decoded = decode_predictions(predictions, top=1)[0][0]
+        for box in boxes:
+            cls_id = int(box.cls[0])
+            conf = float(box.conf[0])
+            label = names[cls_id]
 
-            species = decoded[1].replace("_", " ").title()
-            confidence = float(decoded[2])
+            if conf > best_conf:
+                best_conf = conf
+                best_label = label
 
-            logger.info(f"Detected {species} ({confidence:.2f})")
-
-            return species, confidence
-
-        except Exception as e:
-            logger.error(f"Classification error: {e}")
-            return "Unknown", 0.0
+        logger.info(f"Detected {best_label} ({round(best_conf, 2)})")
+        return best_label, round(best_conf, 2)
 
     def run(self):
         logger.info("System armed. Waiting for motion...")
@@ -75,11 +63,13 @@ class Orchestrator:
 
             species, confidence = self.classify(image)
 
+            if not species:
+                continue
+
             if confidence < config.MIN_CONFIDENCE_LOCAL:
                 logger.info("Confidence below threshold. Discarding.")
                 continue
 
             self.queue.add_event(image, species, confidence)
 
-            # Small cooldown to prevent rapid retrigger
             time.sleep(5)

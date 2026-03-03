@@ -1131,3 +1131,812 @@
 2026-02-28 02:10:28,131 | INFO | Detected Lorikeet (0.11)
 2026-02-28 02:10:28,131 | INFO | Confidence below threshold. Discarding.
 2026-02-28 02:10:28,131 | INFO | Waiting for motion...
+2026-03-02 18:14:06,535 | INFO | WildPulse Pi Agent Starting...
+2026-03-02 18:14:06,548 | INFO | Motion sensor initialized on GPIO 17
+2026-03-02 18:14:06,548 | INFO | Orchestrator initialized
+2026-03-02 18:14:06,548 | INFO | Loading YOLOv8 Nano model...
+2026-03-02 18:14:06,603 | INFO | Starting upload worker thread...
+2026-03-02 18:14:06,604 | INFO | System armed. Waiting for motion...
+2026-03-02 18:14:06,604 | INFO | Waiting for motion...
+2026-03-02 18:14:57,004 | INFO | Motion detected!
+2026-03-02 18:14:58,291 | INFO | Image saved: data/images/capture_20260302_181457.jpg
+2026-03-02 18:14:58,789 | INFO | No objects detected.
+2026-03-02 18:14:58,789 | INFO | Waiting for motion...
+2026-03-02 18:15:03,514 | INFO | Motion detected!
+2026-03-02 18:15:04,828 | INFO | Image saved: data/images/capture_20260302_181503.jpg
+2026-03-02 18:15:05,234 | INFO | No objects detected.
+2026-03-02 18:15:05,234 | INFO | Waiting for motion...
+2026-03-02 18:15:07,219 | INFO | Motion detected!
+2026-03-02 18:15:08,465 | INFO | Image saved: data/images/capture_20260302_181507.jpg
+2026-03-02 18:15:08,892 | INFO | No objects detected.
+2026-03-02 18:15:08,892 | INFO | Waiting for motion...
+2026-03-02 18:15:10,626 | INFO | Motion detected!
+2026-03-02 18:15:11,901 | INFO | Image saved: data/images/capture_20260302_181510.jpg
+2026-03-02 18:15:12,307 | INFO | Detected person (0.37)
+2026-03-02 18:15:12,307 | INFO | Confidence below threshold. Discarding.
+2026-03-02 18:15:12,307 | INFO | Waiting for motion...
+2026-03-02 18:15:12,310 | INFO | Motion detected!
+2026-03-02 18:15:13,619 | INFO | Image saved: data/images/capture_20260302_181512.jpg
+2026-03-02 18:15:14,053 | INFO | Detected person (0.54)
+2026-03-02 18:15:14,063 | INFO | Event added to local queue.
+2026-03-02 18:15:19,063 | INFO | Waiting for motion...
+2026-03-02 18:15:19,063 | INFO | Motion detected!
+2026-03-02 18:15:19,682 | INFO | Upload success for event 48 (201)
+2026-03-02 18:15:20,415 | INFO | Image saved: data/images/capture_20260302_181519.jpg
+2026-03-02 18:15:20,822 | INFO | No objects detected.
+2026-03-02 18:15:20,822 | INFO | Waiting for motion...
+2026-03-03 04:03:35,549 | INFO | WildPulse Pi Agent Starting...
+2026-03-03 04:03:35,570 | INFO | Motion sensor initialized on GPIO 17
+2026-03-03 04:03:35,571 | INFO | Orchestrator initialized
+2026-03-03 04:03:35,571 | INFO | Loading YOLOv8 Nano model...
+2026-03-03 04:03:35,750 | INFO | Starting upload worker thread...
+2026-03-03 04:03:35,750 | INFO | System armed. Waiting for motion...
+2026-03-03 04:03:35,751 | INFO | Waiting for motion...
+2026-03-03 04:03:46,581 | INFO | Motion detected!
+2026-03-03 04:03:48,121 | INFO | Image saved: data/images/capture_20260303_040346.jpg
+2026-03-03 04:03:48,967 | INFO | Detected cat (0.65)
+2026-03-03 04:03:48,978 | INFO | Event added to local queue.
+2026-03-03 04:03:53,820 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffea804f850>: Failed to establish a new connection: [Errno 113] No route to host'))
+2026-03-03 04:03:53,978 | INFO | Waiting for motion...
+2026-03-03 04:03:58,908 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffea808e410>: Failed to establish a new connection: [Errno 113] No route to host'))
+2026-03-03 04:04:03,104 | INFO | Motion detected!
+2026-03-03 04:04:04,411 | INFO | Image saved: data/images/capture_20260303_040403.jpg
+2026-03-03 04:04:04,802 | INFO | No objects detected.
+2026-03-03 04:04:04,802 | INFO | Waiting for motion...
+2026-03-03 04:04:07,484 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffea808ee10>: Failed to establish a new connection: [Errno 113] No route to host'))
+2026-03-03 04:04:12,572 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffea8067f10>: Failed to establish a new connection: [Errno 113] No route to host'))
+2026-03-03 04:04:17,660 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffea80afb10>: Failed to establish a new connection: [Errno 113] No route to host'))
+2026-03-03 04:04:22,748 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffea80bcc90>: Failed to establish a new connection: [Errno 113] No route to host'))
+2026-03-03 04:04:27,836 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffea26e6010>: Failed to establish a new connection: [Errno 113] No route to host'))
+2026-03-03 04:04:37,756 | WARNING | Upload failed: 500
+2026-03-03 04:04:43,312 | WARNING | Upload failed: 500
+2026-03-03 04:04:48,529 | WARNING | Upload failed: 500
+2026-03-03 04:04:52,267 | INFO | Motion detected!
+2026-03-03 04:04:53,511 | INFO | Image saved: data/images/capture_20260303_040452.jpg
+2026-03-03 04:04:53,930 | INFO | Detected umbrella (0.27)
+2026-03-03 04:04:53,930 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:04:53,930 | INFO | Waiting for motion...
+2026-03-03 04:04:54,469 | WARNING | Upload failed: 500
+2026-03-03 04:04:56,584 | INFO | Motion detected!
+2026-03-03 04:04:57,799 | INFO | Image saved: data/images/capture_20260303_040456.jpg
+2026-03-03 04:04:58,192 | INFO | No objects detected.
+2026-03-03 04:04:58,192 | INFO | Waiting for motion...
+2026-03-03 04:04:59,716 | WARNING | Upload failed: 500
+2026-03-03 04:05:01,792 | INFO | Motion detected!
+2026-03-03 04:05:03,042 | INFO | Image saved: data/images/capture_20260303_040501.jpg
+2026-03-03 04:05:03,443 | INFO | No objects detected.
+2026-03-03 04:05:03,444 | INFO | Waiting for motion...
+2026-03-03 04:05:04,821 | WARNING | Upload failed: 500
+2026-03-03 04:05:07,101 | INFO | Motion detected!
+2026-03-03 04:05:08,356 | INFO | Image saved: data/images/capture_20260303_040507.jpg
+2026-03-03 04:05:08,755 | INFO | No objects detected.
+2026-03-03 04:05:08,755 | INFO | Waiting for motion...
+2026-03-03 04:05:13,619 | WARNING | Upload failed: 500
+2026-03-03 04:05:16,111 | INFO | Motion detected!
+2026-03-03 04:05:17,422 | INFO | Image saved: data/images/capture_20260303_040516.jpg
+2026-03-03 04:05:17,812 | INFO | No objects detected.
+2026-03-03 04:05:17,812 | INFO | Waiting for motion...
+2026-03-03 04:05:19,695 | WARNING | Upload failed: 500
+2026-03-03 04:05:21,918 | INFO | Motion detected!
+2026-03-03 04:05:23,220 | INFO | Image saved: data/images/capture_20260303_040521.jpg
+2026-03-03 04:05:23,610 | INFO | No objects detected.
+2026-03-03 04:05:23,610 | INFO | Waiting for motion...
+2026-03-03 04:05:26,932 | WARNING | Upload failed: 500
+2026-03-03 04:05:29,029 | INFO | Motion detected!
+2026-03-03 04:05:30,332 | INFO | Image saved: data/images/capture_20260303_040529.jpg
+2026-03-03 04:05:30,730 | INFO | No objects detected.
+2026-03-03 04:05:30,730 | INFO | Waiting for motion...
+2026-03-03 04:05:34,506 | WARNING | Upload failed: 500
+2026-03-03 04:05:36,639 | INFO | Motion detected!
+2026-03-03 04:05:37,945 | INFO | Image saved: data/images/capture_20260303_040536.jpg
+2026-03-03 04:05:38,343 | INFO | No objects detected.
+2026-03-03 04:05:38,343 | INFO | Waiting for motion...
+2026-03-03 04:05:40,136 | WARNING | Upload failed: 500
+2026-03-03 04:05:42,247 | INFO | Motion detected!
+2026-03-03 04:05:43,530 | INFO | Image saved: data/images/capture_20260303_040542.jpg
+2026-03-03 04:05:43,934 | INFO | No objects detected.
+2026-03-03 04:05:43,934 | INFO | Waiting for motion...
+2026-03-03 04:05:45,468 | WARNING | Upload failed: 500
+2026-03-03 04:05:47,556 | INFO | Motion detected!
+2026-03-03 04:05:48,826 | INFO | Image saved: data/images/capture_20260303_040547.jpg
+2026-03-03 04:05:49,255 | INFO | No objects detected.
+2026-03-03 04:05:49,255 | INFO | Waiting for motion...
+2026-03-03 04:05:51,246 | WARNING | Upload failed: 500
+2026-03-03 04:05:53,465 | INFO | Motion detected!
+2026-03-03 04:05:54,744 | INFO | Image saved: data/images/capture_20260303_040553.jpg
+2026-03-03 04:05:55,248 | INFO | No objects detected.
+2026-03-03 04:05:55,249 | INFO | Waiting for motion...
+2026-03-03 04:05:56,426 | WARNING | Upload failed: 500
+2026-03-03 04:05:58,674 | INFO | Motion detected!
+2026-03-03 04:05:59,986 | INFO | Image saved: data/images/capture_20260303_040558.jpg
+2026-03-03 04:06:00,429 | INFO | No objects detected.
+2026-03-03 04:06:00,429 | INFO | Waiting for motion...
+2026-03-03 04:06:03,387 | WARNING | Upload failed: 500
+2026-03-03 04:06:05,694 | INFO | Motion detected!
+2026-03-03 04:06:06,979 | INFO | Image saved: data/images/capture_20260303_040605.jpg
+2026-03-03 04:06:07,392 | INFO | No objects detected.
+2026-03-03 04:06:07,392 | INFO | Waiting for motion...
+2026-03-03 04:06:28,264 | WARNING | Upload failed: 500
+2026-03-03 04:06:30,428 | INFO | Motion detected!
+2026-03-03 04:06:31,675 | INFO | Image saved: data/images/capture_20260303_040630.jpg
+2026-03-03 04:06:32,061 | INFO | Detected toilet (0.27)
+2026-03-03 04:06:32,061 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:06:32,061 | INFO | Waiting for motion...
+2026-03-03 04:06:33,488 | WARNING | Upload failed: 500
+2026-03-03 04:06:35,635 | INFO | Motion detected!
+2026-03-03 04:06:36,892 | INFO | Image saved: data/images/capture_20260303_040635.jpg
+2026-03-03 04:06:37,280 | INFO | No objects detected.
+2026-03-03 04:06:37,280 | INFO | Waiting for motion...
+2026-03-03 04:06:39,530 | WARNING | Upload failed: 500
+2026-03-03 04:06:41,645 | INFO | Motion detected!
+2026-03-03 04:06:42,883 | INFO | Image saved: data/images/capture_20260303_040641.jpg
+2026-03-03 04:06:43,271 | INFO | Detected umbrella (0.45)
+2026-03-03 04:06:43,272 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:06:43,272 | INFO | Waiting for motion...
+2026-03-03 04:06:44,752 | WARNING | Upload failed: 500
+2026-03-03 04:06:46,851 | INFO | Motion detected!
+2026-03-03 04:06:48,086 | INFO | Image saved: data/images/capture_20260303_040646.jpg
+2026-03-03 04:06:48,467 | INFO | Detected person (0.52)
+2026-03-03 04:06:48,477 | INFO | Event added to local queue.
+2026-03-03 04:06:49,664 | WARNING | Upload failed: 500
+2026-03-03 04:06:53,477 | INFO | Waiting for motion...
+2026-03-03 04:06:54,480 | WARNING | Upload failed: 500
+2026-03-03 04:06:56,563 | INFO | Motion detected!
+2026-03-03 04:06:57,799 | INFO | Image saved: data/images/capture_20260303_040656.jpg
+2026-03-03 04:06:58,182 | INFO | No objects detected.
+2026-03-03 04:06:58,182 | INFO | Waiting for motion...
+2026-03-03 04:07:00,268 | INFO | Motion detected!
+2026-03-03 04:07:00,643 | WARNING | Upload failed: 500
+2026-03-03 04:07:01,476 | INFO | Image saved: data/images/capture_20260303_040700.jpg
+2026-03-03 04:07:01,890 | INFO | No objects detected.
+2026-03-03 04:07:01,890 | INFO | Waiting for motion...
+2026-03-03 04:07:01,890 | INFO | Motion detected!
+2026-03-03 04:07:03,101 | INFO | Image saved: data/images/capture_20260303_040701.jpg
+2026-03-03 04:07:03,494 | INFO | No objects detected.
+2026-03-03 04:07:03,494 | INFO | Waiting for motion...
+2026-03-03 04:07:06,857 | WARNING | Upload failed: 500
+2026-03-03 04:07:08,978 | INFO | Motion detected!
+2026-03-03 04:07:10,240 | INFO | Image saved: data/images/capture_20260303_040708.jpg
+2026-03-03 04:07:10,631 | INFO | No objects detected.
+2026-03-03 04:07:10,631 | INFO | Waiting for motion...
+2026-03-03 04:07:10,631 | INFO | Motion detected!
+2026-03-03 04:07:11,874 | INFO | Image saved: data/images/capture_20260303_040710.jpg
+2026-03-03 04:07:12,278 | INFO | No objects detected.
+2026-03-03 04:07:12,279 | INFO | Waiting for motion...
+2026-03-03 04:07:13,089 | INFO | Motion detected!
+2026-03-03 04:07:13,568 | WARNING | Upload failed: 500
+2026-03-03 04:07:14,372 | INFO | Image saved: data/images/capture_20260303_040713.jpg
+2026-03-03 04:07:14,768 | INFO | No objects detected.
+2026-03-03 04:07:14,769 | INFO | Waiting for motion...
+2026-03-03 04:07:18,195 | INFO | Motion detected!
+2026-03-03 04:07:19,429 | INFO | Image saved: data/images/capture_20260303_040718.jpg
+2026-03-03 04:07:19,466 | WARNING | Upload failed: 500
+2026-03-03 04:07:19,836 | INFO | No objects detected.
+2026-03-03 04:07:19,836 | INFO | Waiting for motion...
+2026-03-03 04:07:21,600 | INFO | Motion detected!
+2026-03-03 04:07:22,860 | INFO | Image saved: data/images/capture_20260303_040721.jpg
+2026-03-03 04:07:23,249 | INFO | No objects detected.
+2026-03-03 04:07:23,250 | INFO | Waiting for motion...
+2026-03-03 04:07:24,484 | WARNING | Upload failed: 500
+2026-03-03 04:07:26,613 | INFO | Motion detected!
+2026-03-03 04:07:27,921 | INFO | Image saved: data/images/capture_20260303_040726.jpg
+2026-03-03 04:07:28,312 | INFO | No objects detected.
+2026-03-03 04:07:28,312 | INFO | Waiting for motion...
+2026-03-03 04:07:29,564 | WARNING | Upload failed: 500
+2026-03-03 04:07:31,621 | INFO | Motion detected!
+2026-03-03 04:07:32,862 | INFO | Image saved: data/images/capture_20260303_040731.jpg
+2026-03-03 04:07:33,266 | INFO | Detected umbrella (0.28)
+2026-03-03 04:07:33,266 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:07:33,266 | INFO | Waiting for motion...
+2026-03-03 04:07:34,625 | WARNING | Upload failed: 500
+2026-03-03 04:07:36,728 | INFO | Motion detected!
+2026-03-03 04:07:38,000 | INFO | Image saved: data/images/capture_20260303_040736.jpg
+2026-03-03 04:07:38,396 | INFO | No objects detected.
+2026-03-03 04:07:38,396 | INFO | Waiting for motion...
+2026-03-03 04:07:39,864 | WARNING | Upload failed: 500
+2026-03-03 04:07:41,934 | INFO | Motion detected!
+2026-03-03 04:07:43,181 | INFO | Image saved: data/images/capture_20260303_040741.jpg
+2026-03-03 04:07:43,584 | INFO | No objects detected.
+2026-03-03 04:07:43,584 | INFO | Waiting for motion...
+2026-03-03 04:07:44,178 | WARNING | Upload failed: 500
+2026-03-03 04:07:46,241 | INFO | Motion detected!
+2026-03-03 04:07:47,475 | INFO | Image saved: data/images/capture_20260303_040746.jpg
+2026-03-03 04:07:47,864 | INFO | No objects detected.
+2026-03-03 04:07:47,864 | INFO | Waiting for motion...
+2026-03-03 04:07:48,763 | WARNING | Upload failed: 500
+2026-03-03 04:07:50,848 | INFO | Motion detected!
+2026-03-03 04:07:52,151 | INFO | Image saved: data/images/capture_20260303_040750.jpg
+2026-03-03 04:07:52,539 | INFO | No objects detected.
+2026-03-03 04:07:52,539 | INFO | Waiting for motion...
+2026-03-03 04:07:53,256 | WARNING | Upload failed: 500
+2026-03-03 04:07:55,454 | INFO | Motion detected!
+2026-03-03 04:07:56,723 | INFO | Image saved: data/images/capture_20260303_040755.jpg
+2026-03-03 04:07:57,140 | INFO | No objects detected.
+2026-03-03 04:07:57,140 | INFO | Waiting for motion...
+2026-03-03 04:07:58,266 | WARNING | Upload failed: 500
+2026-03-03 04:08:00,285 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffea26da090>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:08:02,364 | INFO | Motion detected!
+2026-03-03 04:08:03,619 | INFO | Image saved: data/images/capture_20260303_040802.jpg
+2026-03-03 04:08:04,003 | INFO | No objects detected.
+2026-03-03 04:08:04,003 | INFO | Waiting for motion...
+2026-03-03 04:08:08,056 | WARNING | Upload failed: 500
+2026-03-03 04:08:10,172 | INFO | Motion detected!
+2026-03-03 04:08:11,463 | INFO | Image saved: data/images/capture_20260303_040810.jpg
+2026-03-03 04:08:11,850 | INFO | No objects detected.
+2026-03-03 04:08:11,850 | INFO | Waiting for motion...
+2026-03-03 04:08:15,288 | WARNING | Upload failed: 500
+2026-03-03 04:08:17,381 | INFO | Motion detected!
+2026-03-03 04:08:18,663 | INFO | Image saved: data/images/capture_20260303_040817.jpg
+2026-03-03 04:08:19,098 | INFO | No objects detected.
+2026-03-03 04:08:19,098 | INFO | Waiting for motion...
+2026-03-03 04:08:21,245 | WARNING | Upload failed: 500
+2026-03-03 04:08:23,389 | INFO | Motion detected!
+2026-03-03 04:08:24,668 | INFO | Image saved: data/images/capture_20260303_040823.jpg
+2026-03-03 04:08:25,064 | INFO | No objects detected.
+2026-03-03 04:08:25,064 | INFO | Waiting for motion...
+2026-03-03 04:08:25,826 | WARNING | Upload failed: 500
+2026-03-03 04:08:27,994 | INFO | Motion detected!
+2026-03-03 04:08:29,287 | INFO | Image saved: data/images/capture_20260303_040827.jpg
+2026-03-03 04:08:29,688 | INFO | No objects detected.
+2026-03-03 04:08:29,688 | INFO | Waiting for motion...
+2026-03-03 04:08:30,888 | WARNING | Upload failed: 500
+2026-03-03 04:08:33,103 | INFO | Motion detected!
+2026-03-03 04:08:34,393 | INFO | Image saved: data/images/capture_20260303_040833.jpg
+2026-03-03 04:08:34,795 | INFO | No objects detected.
+2026-03-03 04:08:34,795 | INFO | Waiting for motion...
+2026-03-03 04:08:36,985 | WARNING | Upload failed: 500
+2026-03-03 04:08:39,211 | INFO | Motion detected!
+2026-03-03 04:08:40,497 | INFO | Image saved: data/images/capture_20260303_040839.jpg
+2026-03-03 04:08:40,892 | INFO | No objects detected.
+2026-03-03 04:08:40,892 | INFO | Waiting for motion...
+2026-03-03 04:08:42,832 | WARNING | Upload failed: 500
+2026-03-03 04:08:45,020 | INFO | Motion detected!
+2026-03-03 04:08:46,242 | INFO | Image saved: data/images/capture_20260303_040845.jpg
+2026-03-03 04:08:46,645 | INFO | No objects detected.
+2026-03-03 04:08:46,645 | INFO | Waiting for motion...
+2026-03-03 04:08:47,946 | WARNING | Upload failed: 500
+2026-03-03 04:08:52,878 | WARNING | Upload failed: 500
+2026-03-03 04:08:55,135 | INFO | Motion detected!
+2026-03-03 04:08:56,401 | INFO | Image saved: data/images/capture_20260303_040855.jpg
+2026-03-03 04:08:56,802 | INFO | No objects detected.
+2026-03-03 04:08:56,802 | INFO | Waiting for motion...
+2026-03-03 04:08:59,138 | WARNING | Upload failed: 500
+2026-03-03 04:09:01,242 | INFO | Motion detected!
+2026-03-03 04:09:02,478 | INFO | Image saved: data/images/capture_20260303_040901.jpg
+2026-03-03 04:09:02,885 | INFO | No objects detected.
+2026-03-03 04:09:02,885 | INFO | Waiting for motion...
+2026-03-03 04:09:06,349 | WARNING | Upload failed: 500
+2026-03-03 04:09:08,452 | INFO | Motion detected!
+2026-03-03 04:09:09,753 | INFO | Image saved: data/images/capture_20260303_040908.jpg
+2026-03-03 04:09:10,157 | INFO | No objects detected.
+2026-03-03 04:09:10,157 | INFO | Waiting for motion...
+2026-03-03 04:09:11,210 | WARNING | Upload failed: 500
+2026-03-03 04:09:12,558 | INFO | Motion detected!
+2026-03-03 04:09:13,811 | INFO | Image saved: data/images/capture_20260303_040912.jpg
+2026-03-03 04:09:14,213 | INFO | No objects detected.
+2026-03-03 04:09:14,213 | INFO | Waiting for motion...
+2026-03-03 04:09:15,798 | WARNING | Upload failed: 500
+2026-03-03 04:09:17,967 | INFO | Motion detected!
+2026-03-03 04:09:19,250 | INFO | Image saved: data/images/capture_20260303_040917.jpg
+2026-03-03 04:09:19,651 | INFO | No objects detected.
+2026-03-03 04:09:19,651 | INFO | Waiting for motion...
+2026-03-03 04:09:20,697 | WARNING | Upload failed: 500
+2026-03-03 04:09:22,873 | INFO | Motion detected!
+2026-03-03 04:09:24,124 | INFO | Image saved: data/images/capture_20260303_040922.jpg
+2026-03-03 04:09:24,554 | INFO | No objects detected.
+2026-03-03 04:09:24,554 | INFO | Waiting for motion...
+2026-03-03 04:09:26,411 | WARNING | Upload failed: 500
+2026-03-03 04:09:28,481 | INFO | Motion detected!
+2026-03-03 04:09:29,744 | INFO | Image saved: data/images/capture_20260303_040928.jpg
+2026-03-03 04:09:30,161 | INFO | No objects detected.
+2026-03-03 04:09:30,161 | INFO | Waiting for motion...
+2026-03-03 04:09:31,527 | WARNING | Upload failed: 500
+2026-03-03 04:09:33,689 | INFO | Motion detected!
+2026-03-03 04:09:34,999 | INFO | Image saved: data/images/capture_20260303_040933.jpg
+2026-03-03 04:09:35,402 | INFO | No objects detected.
+2026-03-03 04:09:35,403 | INFO | Waiting for motion...
+2026-03-03 04:09:36,658 | WARNING | Upload failed: 500
+2026-03-03 04:09:42,723 | WARNING | Upload failed: 500
+2026-03-03 04:09:44,905 | INFO | Motion detected!
+2026-03-03 04:09:46,222 | INFO | Image saved: data/images/capture_20260303_040944.jpg
+2026-03-03 04:09:46,630 | INFO | No objects detected.
+2026-03-03 04:09:46,630 | INFO | Waiting for motion...
+2026-03-03 04:09:48,162 | WARNING | Upload failed: 500
+2026-03-03 04:09:50,313 | INFO | Motion detected!
+2026-03-03 04:09:51,604 | INFO | Image saved: data/images/capture_20260303_040950.jpg
+2026-03-03 04:09:51,994 | INFO | No objects detected.
+2026-03-03 04:09:51,994 | INFO | Waiting for motion...
+2026-03-03 04:09:53,493 | WARNING | Upload failed: 500
+2026-03-03 04:09:59,624 | WARNING | Upload failed: 500
+2026-03-03 04:10:05,408 | WARNING | Upload failed: 500
+2026-03-03 04:10:07,538 | INFO | Motion detected!
+2026-03-03 04:10:08,804 | INFO | Image saved: data/images/capture_20260303_041007.jpg
+2026-03-03 04:10:09,218 | INFO | No objects detected.
+2026-03-03 04:10:09,218 | INFO | Waiting for motion...
+2026-03-03 04:10:10,308 | WARNING | Upload failed: 500
+2026-03-03 04:10:12,445 | INFO | Motion detected!
+2026-03-03 04:10:13,755 | INFO | Image saved: data/images/capture_20260303_041012.jpg
+2026-03-03 04:10:14,151 | INFO | No objects detected.
+2026-03-03 04:10:14,151 | INFO | Waiting for motion...
+2026-03-03 04:10:14,896 | WARNING | Upload failed: 500
+2026-03-03 04:10:17,053 | INFO | Motion detected!
+2026-03-03 04:10:18,282 | INFO | Image saved: data/images/capture_20260303_041017.jpg
+2026-03-03 04:10:18,674 | INFO | No objects detected.
+2026-03-03 04:10:18,674 | INFO | Waiting for motion...
+2026-03-03 04:10:19,604 | WARNING | Upload failed: 500
+2026-03-03 04:10:21,759 | INFO | Motion detected!
+2026-03-03 04:10:23,000 | INFO | Image saved: data/images/capture_20260303_041021.jpg
+2026-03-03 04:10:23,387 | INFO | No objects detected.
+2026-03-03 04:10:23,387 | INFO | Waiting for motion...
+2026-03-03 04:10:24,304 | WARNING | Upload failed: 500
+2026-03-03 04:10:26,668 | INFO | Motion detected!
+2026-03-03 04:10:27,905 | INFO | Image saved: data/images/capture_20260303_041026.jpg
+2026-03-03 04:10:28,309 | INFO | No objects detected.
+2026-03-03 04:10:28,309 | INFO | Waiting for motion...
+2026-03-03 04:10:30,345 | WARNING | Upload failed: 500
+2026-03-03 04:10:32,777 | INFO | Motion detected!
+2026-03-03 04:10:34,016 | INFO | Image saved: data/images/capture_20260303_041032.jpg
+2026-03-03 04:10:34,419 | INFO | No objects detected.
+2026-03-03 04:10:34,420 | INFO | Waiting for motion...
+2026-03-03 04:10:36,594 | WARNING | Upload failed: 500
+2026-03-03 04:10:38,687 | INFO | Motion detected!
+2026-03-03 04:10:39,951 | INFO | Image saved: data/images/capture_20260303_041038.jpg
+2026-03-03 04:10:40,383 | INFO | No objects detected.
+2026-03-03 04:10:40,383 | INFO | Waiting for motion...
+2026-03-03 04:10:42,219 | WARNING | Upload failed: 500
+2026-03-03 04:10:44,394 | INFO | Motion detected!
+2026-03-03 04:10:45,628 | INFO | Image saved: data/images/capture_20260303_041044.jpg
+2026-03-03 04:10:46,024 | INFO | No objects detected.
+2026-03-03 04:10:46,024 | INFO | Waiting for motion...
+2026-03-03 04:10:48,051 | WARNING | Upload failed: 500
+2026-03-03 04:10:53,790 | WARNING | Upload failed: 500
+2026-03-03 04:10:56,111 | INFO | Motion detected!
+2026-03-03 04:10:57,426 | INFO | Image saved: data/images/capture_20260303_041056.jpg
+2026-03-03 04:10:57,825 | INFO | Detected airplane (0.26)
+2026-03-03 04:10:57,825 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:10:57,826 | INFO | Waiting for motion...
+2026-03-03 04:10:59,428 | WARNING | Upload failed: 500
+2026-03-03 04:11:05,765 | WARNING | Upload failed: 500
+2026-03-03 04:11:11,268 | WARNING | Upload failed: 500
+2026-03-03 04:11:13,439 | INFO | Motion detected!
+2026-03-03 04:11:14,710 | INFO | Image saved: data/images/capture_20260303_041113.jpg
+2026-03-03 04:11:15,102 | INFO | No objects detected.
+2026-03-03 04:11:15,102 | INFO | Waiting for motion...
+2026-03-03 04:11:16,941 | WARNING | Upload failed: 500
+2026-03-03 04:11:23,951 | WARNING | Upload failed: 500
+2026-03-03 04:11:26,154 | INFO | Motion detected!
+2026-03-03 04:11:27,481 | INFO | Image saved: data/images/capture_20260303_041126.jpg
+2026-03-03 04:11:27,886 | INFO | No objects detected.
+2026-03-03 04:11:27,886 | INFO | Waiting for motion...
+2026-03-03 04:11:28,705 | WARNING | Upload failed: 500
+2026-03-03 04:11:30,864 | INFO | Motion detected!
+2026-03-03 04:11:32,115 | INFO | Image saved: data/images/capture_20260303_041130.jpg
+2026-03-03 04:11:32,506 | INFO | No objects detected.
+2026-03-03 04:11:32,506 | INFO | Waiting for motion...
+2026-03-03 04:11:33,969 | WARNING | Upload failed: 500
+2026-03-03 04:11:36,070 | INFO | Motion detected!
+2026-03-03 04:11:37,339 | INFO | Image saved: data/images/capture_20260303_041136.jpg
+2026-03-03 04:11:37,736 | INFO | No objects detected.
+2026-03-03 04:11:37,736 | INFO | Waiting for motion...
+2026-03-03 04:11:38,648 | WARNING | Upload failed: 500
+2026-03-03 04:11:40,876 | INFO | Motion detected!
+2026-03-03 04:11:42,190 | INFO | Image saved: data/images/capture_20260303_041140.jpg
+2026-03-03 04:11:42,590 | INFO | No objects detected.
+2026-03-03 04:11:42,590 | INFO | Waiting for motion...
+2026-03-03 04:11:44,461 | WARNING | Upload failed: 500
+2026-03-03 04:11:45,690 | INFO | Motion detected!
+2026-03-03 04:11:46,966 | INFO | Image saved: data/images/capture_20260303_041145.jpg
+2026-03-03 04:11:47,442 | INFO | No objects detected.
+2026-03-03 04:11:47,445 | INFO | Waiting for motion...
+2026-03-03 04:11:47,445 | INFO | Motion detected!
+2026-03-03 04:11:48,743 | INFO | Image saved: data/images/capture_20260303_041147.jpg
+2026-03-03 04:11:49,244 | INFO | No objects detected.
+2026-03-03 04:11:49,245 | INFO | Waiting for motion...
+2026-03-03 04:11:49,415 | WARNING | Upload failed: 500
+2026-03-03 04:11:51,609 | INFO | Motion detected!
+2026-03-03 04:11:52,879 | INFO | Image saved: data/images/capture_20260303_041151.jpg
+2026-03-03 04:11:53,291 | INFO | No objects detected.
+2026-03-03 04:11:53,291 | INFO | Waiting for motion...
+2026-03-03 04:11:56,355 | WARNING | Upload failed: 500
+2026-03-03 04:11:58,519 | INFO | Motion detected!
+2026-03-03 04:11:59,820 | INFO | Image saved: data/images/capture_20260303_041158.jpg
+2026-03-03 04:12:00,204 | INFO | No objects detected.
+2026-03-03 04:12:00,204 | INFO | Waiting for motion...
+2026-03-03 04:12:03,511 | WARNING | Upload failed: 500
+2026-03-03 04:12:05,841 | INFO | Motion detected!
+2026-03-03 04:12:07,121 | INFO | Image saved: data/images/capture_20260303_041205.jpg
+2026-03-03 04:12:07,524 | INFO | No objects detected.
+2026-03-03 04:12:07,525 | INFO | Waiting for motion...
+2026-03-03 04:12:09,979 | WARNING | Upload failed: 500
+2026-03-03 04:12:12,757 | INFO | Motion detected!
+2026-03-03 04:12:14,011 | INFO | Image saved: data/images/capture_20260303_041212.jpg
+2026-03-03 04:12:14,405 | INFO | No objects detected.
+2026-03-03 04:12:14,405 | INFO | Waiting for motion...
+2026-03-03 04:12:15,880 | WARNING | Upload failed: 500
+2026-03-03 04:12:16,365 | INFO | Motion detected!
+2026-03-03 04:12:17,675 | INFO | Image saved: data/images/capture_20260303_041216.jpg
+2026-03-03 04:12:18,141 | INFO | No objects detected.
+2026-03-03 04:12:18,141 | INFO | Waiting for motion...
+2026-03-03 04:12:22,139 | WARNING | Upload failed: 500
+2026-03-03 04:12:24,279 | INFO | Motion detected!
+2026-03-03 04:12:25,609 | INFO | Image saved: data/images/capture_20260303_041224.jpg
+2026-03-03 04:12:26,021 | INFO | No objects detected.
+2026-03-03 04:12:26,021 | INFO | Waiting for motion...
+2026-03-03 04:12:27,806 | WARNING | Upload failed: 500
+2026-03-03 04:12:29,888 | INFO | Motion detected!
+2026-03-03 04:12:31,168 | INFO | Image saved: data/images/capture_20260303_041229.jpg
+2026-03-03 04:12:31,594 | INFO | No objects detected.
+2026-03-03 04:12:31,595 | INFO | Waiting for motion...
+2026-03-03 04:12:31,595 | INFO | Motion detected!
+2026-03-03 04:12:32,815 | INFO | Image saved: data/images/capture_20260303_041231.jpg
+2026-03-03 04:12:33,203 | INFO | Detected tie (0.36)
+2026-03-03 04:12:33,203 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:12:33,203 | INFO | Waiting for motion...
+2026-03-03 04:12:34,296 | INFO | Motion detected!
+2026-03-03 04:12:35,397 | WARNING | Upload failed: 500
+2026-03-03 04:12:35,522 | INFO | Image saved: data/images/capture_20260303_041234.jpg
+2026-03-03 04:12:35,916 | INFO | Detected person (0.26)
+2026-03-03 04:12:35,916 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:12:35,917 | INFO | Waiting for motion...
+2026-03-03 04:12:35,917 | INFO | Motion detected!
+2026-03-03 04:12:37,183 | INFO | Image saved: data/images/capture_20260303_041235.jpg
+2026-03-03 04:12:37,599 | INFO | Detected toothbrush (0.8)
+2026-03-03 04:12:37,649 | INFO | Event added to local queue.
+2026-03-03 04:12:41,418 | WARNING | Upload failed: 500
+2026-03-03 04:12:42,649 | INFO | Waiting for motion...
+2026-03-03 04:12:48,070 | WARNING | Upload failed: 500
+2026-03-03 04:12:54,670 | WARNING | Upload failed: 500
+2026-03-03 04:13:00,020 | WARNING | Upload failed: 500
+2026-03-03 04:13:06,704 | WARNING | Upload failed: 500
+2026-03-03 04:13:12,747 | WARNING | Upload failed: 500
+2026-03-03 04:13:17,865 | WARNING | Upload failed: 500
+2026-03-03 04:13:23,512 | WARNING | Upload failed: 500
+2026-03-03 04:13:28,373 | WARNING | Upload failed: 500
+2026-03-03 04:13:33,516 | WARNING | Upload failed: 500
+2026-03-03 04:13:38,620 | WARNING | Upload failed: 500
+2026-03-03 04:13:43,697 | WARNING | Upload failed: 500
+2026-03-03 04:13:48,208 | WARNING | Upload failed: 500
+2026-03-03 04:13:53,107 | WARNING | Upload failed: 500
+2026-03-03 04:13:57,864 | WARNING | Upload failed: 500
+2026-03-03 04:14:02,919 | WARNING | Upload failed: 500
+2026-03-03 04:14:07,554 | WARNING | Upload failed: 500
+2026-03-03 04:14:12,144 | WARNING | Upload failed: 500
+2026-03-03 04:14:16,847 | WARNING | Upload failed: 500
+2026-03-03 04:14:21,484 | WARNING | Upload failed: 500
+2026-03-03 04:14:26,238 | WARNING | Upload failed: 500
+2026-03-03 04:14:31,502 | WARNING | Upload failed: 500
+2026-03-03 04:14:36,795 | WARNING | Upload failed: 500
+2026-03-03 04:14:43,229 | WARNING | Upload failed: 500
+2026-03-03 04:14:48,490 | WARNING | Upload failed: 500
+2026-03-03 04:14:53,198 | WARNING | Upload failed: 500
+2026-03-03 04:15:00,062 | WARNING | Upload failed: 500
+2026-03-03 04:15:05,721 | WARNING | Upload failed: 500
+2026-03-03 04:15:10,856 | WARNING | Upload failed: 500
+2026-03-03 04:15:16,967 | WARNING | Upload failed: 500
+2026-03-03 04:15:22,028 | WARNING | Upload failed: 500
+2026-03-03 04:15:27,113 | WARNING | Upload failed: 500
+2026-03-03 04:15:31,599 | WARNING | Upload failed: 500
+2026-03-03 04:15:36,730 | WARNING | Upload failed: 500
+2026-03-03 04:15:41,501 | WARNING | Upload failed: 500
+2026-03-03 04:15:45,984 | WARNING | Upload failed: 500
+2026-03-03 04:15:51,389 | WARNING | Upload failed: 500
+2026-03-03 04:15:56,532 | WARNING | Upload failed: 500
+2026-03-03 04:16:01,603 | WARNING | Upload failed: 500
+2026-03-03 04:16:09,170 | WARNING | Upload failed: 500
+2026-03-03 04:16:15,003 | WARNING | Upload failed: 500
+2026-03-03 04:16:20,992 | WARNING | Upload failed: 500
+2026-03-03 04:16:26,736 | INFO | Motion detected!
+2026-03-03 04:16:27,803 | WARNING | Upload failed: 500
+2026-03-03 04:16:27,978 | INFO | Image saved: data/images/capture_20260303_041626.jpg
+2026-03-03 04:16:28,380 | INFO | Detected umbrella (0.41)
+2026-03-03 04:16:28,380 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:16:28,380 | INFO | Waiting for motion...
+2026-03-03 04:16:33,579 | WARNING | Upload failed: 500
+2026-03-03 04:16:38,981 | WARNING | Upload failed: 500
+2026-03-03 04:17:12,113 | INFO | WildPulse Pi Agent Starting...
+2026-03-03 04:17:12,125 | INFO | Motion sensor initialized on GPIO 17
+2026-03-03 04:17:12,125 | INFO | Orchestrator initialized
+2026-03-03 04:17:12,125 | INFO | Loading YOLOv8 Nano model...
+2026-03-03 04:17:12,181 | INFO | Starting upload worker thread...
+2026-03-03 04:17:12,182 | INFO | System armed. Waiting for motion...
+2026-03-03 04:17:12,182 | INFO | Waiting for motion...
+2026-03-03 04:17:19,068 | WARNING | Upload failed: 500
+2026-03-03 04:17:23,738 | WARNING | Upload failed: 500
+2026-03-03 04:17:29,256 | WARNING | Upload failed: 500
+2026-03-03 04:17:35,157 | WARNING | Upload failed: 500
+2026-03-03 04:18:01,696 | INFO | WildPulse Pi Agent Starting...
+2026-03-03 04:18:01,708 | INFO | Motion sensor initialized on GPIO 17
+2026-03-03 04:18:01,709 | INFO | Orchestrator initialized
+2026-03-03 04:18:01,709 | INFO | Loading YOLOv8 Nano model...
+2026-03-03 04:18:01,763 | INFO | Starting upload worker thread...
+2026-03-03 04:18:01,763 | INFO | System armed. Waiting for motion...
+2026-03-03 04:18:01,763 | INFO | Waiting for motion...
+2026-03-03 04:18:07,000 | WARNING | Upload failed: 500
+2026-03-03 04:18:14,443 | WARNING | Upload failed: 500
+2026-03-03 04:18:23,120 | WARNING | Upload failed: 500
+2026-03-03 04:18:28,394 | WARNING | Upload failed: 500
+2026-03-03 04:18:33,399 | WARNING | Upload failed: 500
+2026-03-03 04:18:39,214 | WARNING | Upload failed: 500
+2026-03-03 04:18:44,940 | WARNING | Upload failed: 500
+2026-03-03 04:18:51,748 | WARNING | Upload failed: 500
+2026-03-03 04:18:56,713 | WARNING | Upload failed: 500
+2026-03-03 04:18:58,848 | ERROR | Upload exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-03 04:19:00,919 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff48068ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:19:03,061 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff48113f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:19:05,312 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff4806b110>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:19:07,332 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff480a98d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:19:09,360 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff4805f210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:19:11,467 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff480c0690>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:19:13,487 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff480a9610>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:19:19,992 | WARNING | Upload failed: 500
+2026-03-03 04:19:25,502 | WARNING | Upload failed: 500
+2026-03-03 04:19:31,528 | WARNING | Upload failed: 500
+2026-03-03 04:19:36,902 | WARNING | Upload failed: 500
+2026-03-03 04:19:42,481 | WARNING | Upload failed: 500
+2026-03-03 04:19:48,933 | WARNING | Upload failed: 500
+2026-03-03 04:19:54,576 | WARNING | Upload failed: 500
+2026-03-03 04:20:00,114 | WARNING | Upload failed: 500
+2026-03-03 04:20:05,703 | WARNING | Upload failed: 500
+2026-03-03 04:20:10,592 | WARNING | Upload failed: 500
+2026-03-03 04:20:15,584 | WARNING | Upload failed: 500
+2026-03-03 04:20:20,883 | WARNING | Upload failed: 500
+2026-03-03 04:20:26,229 | WARNING | Upload failed: 500
+2026-03-03 04:20:32,724 | WARNING | Upload failed: 500
+2026-03-03 04:20:38,904 | WARNING | Upload failed: 500
+2026-03-03 04:20:44,254 | WARNING | Upload failed: 500
+2026-03-03 04:20:50,269 | WARNING | Upload failed: 500
+2026-03-03 04:20:55,799 | WARNING | Upload failed: 500
+2026-03-03 04:21:04,264 | WARNING | Upload failed: 500
+2026-03-03 04:21:13,208 | WARNING | Upload failed: 500
+2026-03-03 04:21:19,458 | WARNING | Upload failed: 500
+2026-03-03 04:21:24,579 | WARNING | Upload failed: 500
+2026-03-03 04:21:29,807 | WARNING | Upload failed: 500
+2026-03-03 04:21:35,137 | WARNING | Upload failed: 500
+2026-03-03 04:21:41,072 | WARNING | Upload failed: 500
+2026-03-03 04:21:50,755 | WARNING | Upload failed: 500
+2026-03-03 04:21:56,179 | WARNING | Upload failed: 500
+2026-03-03 04:22:01,905 | WARNING | Upload failed: 500
+2026-03-03 04:22:06,271 | WARNING | Upload failed: 500
+2026-03-03 04:22:11,445 | WARNING | Upload failed: 500
+2026-03-03 04:22:17,020 | WARNING | Upload failed: 500
+2026-03-03 04:22:22,884 | WARNING | Upload failed: 500
+2026-03-03 04:22:28,165 | WARNING | Upload failed: 500
+2026-03-03 04:22:35,203 | WARNING | Upload failed: 500
+2026-03-03 04:22:40,866 | WARNING | Upload failed: 500
+2026-03-03 04:22:45,994 | WARNING | Upload failed: 500
+2026-03-03 04:22:51,932 | WARNING | Upload failed: 500
+2026-03-03 04:23:00,410 | WARNING | Upload failed: 500
+2026-03-03 04:23:06,020 | WARNING | Upload failed: 500
+2026-03-03 04:23:12,106 | WARNING | Upload failed: 500
+2026-03-03 04:23:17,916 | WARNING | Upload failed: 500
+2026-03-03 04:23:23,877 | WARNING | Upload failed: 500
+2026-03-03 04:23:29,785 | WARNING | Upload failed: 500
+2026-03-03 04:23:34,534 | WARNING | Upload failed: 500
+2026-03-03 04:23:40,218 | WARNING | Upload failed: 500
+2026-03-03 04:23:47,119 | WARNING | Upload failed: 500
+2026-03-03 04:23:52,251 | WARNING | Upload failed: 500
+2026-03-03 04:23:57,556 | WARNING | Upload failed: 500
+2026-03-03 04:24:03,910 | WARNING | Upload failed: 500
+2026-03-03 04:24:09,533 | WARNING | Upload failed: 500
+2026-03-03 04:24:15,177 | WARNING | Upload failed: 500
+2026-03-03 04:24:20,399 | WARNING | Upload failed: 500
+2026-03-03 04:24:26,338 | WARNING | Upload failed: 500
+2026-03-03 04:24:33,390 | WARNING | Upload failed: 500
+2026-03-03 04:24:35,420 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff42ee6050>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:24:37,656 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff48090e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:24:43,740 | INFO | WildPulse Pi Agent Starting...
+2026-03-03 04:24:43,753 | INFO | Motion sensor initialized on GPIO 17
+2026-03-03 04:24:43,754 | INFO | Orchestrator initialized
+2026-03-03 04:24:43,754 | INFO | Loading YOLOv8 Nano model...
+2026-03-03 04:24:43,808 | INFO | Starting upload worker thread...
+2026-03-03 04:24:43,808 | INFO | System armed. Waiting for motion...
+2026-03-03 04:24:43,809 | INFO | Waiting for motion...
+2026-03-03 04:24:43,813 | ERROR | Upload exception: HTTPConnectionPool(host='192.168.1.121', port=3000): Max retries exceeded with url: /api/captures/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fff403600d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2026-03-03 04:24:52,552 | INFO | Upload success for event 49 (201)
+2026-03-03 04:24:55,630 | INFO | Upload success for event 50 (201)
+2026-03-03 04:24:58,142 | INFO | Upload success for event 51 (201)
+2026-03-03 04:54:06,273 | INFO | Motion detected!
+2026-03-03 04:54:07,540 | INFO | Image saved: data/images/capture_20260303_045406.jpg
+2026-03-03 04:54:08,037 | INFO | No objects detected.
+2026-03-03 04:54:08,037 | INFO | Waiting for motion...
+2026-03-03 04:54:11,883 | INFO | Motion detected!
+2026-03-03 04:54:13,142 | INFO | Image saved: data/images/capture_20260303_045411.jpg
+2026-03-03 04:54:13,528 | INFO | No objects detected.
+2026-03-03 04:54:13,529 | INFO | Waiting for motion...
+2026-03-03 04:54:13,529 | INFO | Motion detected!
+2026-03-03 04:54:14,759 | INFO | Image saved: data/images/capture_20260303_045413.jpg
+2026-03-03 04:54:15,164 | INFO | No objects detected.
+2026-03-03 04:54:15,164 | INFO | Waiting for motion...
+2026-03-03 04:54:17,093 | INFO | Motion detected!
+2026-03-03 04:54:18,364 | INFO | Image saved: data/images/capture_20260303_045417.jpg
+2026-03-03 04:54:18,746 | INFO | Detected umbrella (0.28)
+2026-03-03 04:54:18,746 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:54:18,746 | INFO | Waiting for motion...
+2026-03-03 04:54:18,746 | INFO | Motion detected!
+2026-03-03 04:54:19,983 | INFO | Image saved: data/images/capture_20260303_045418.jpg
+2026-03-03 04:54:20,374 | INFO | No objects detected.
+2026-03-03 04:54:20,374 | INFO | Waiting for motion...
+2026-03-03 04:54:22,303 | INFO | Motion detected!
+2026-03-03 04:54:23,577 | INFO | Image saved: data/images/capture_20260303_045422.jpg
+2026-03-03 04:54:23,981 | INFO | Detected cat (0.29)
+2026-03-03 04:54:23,981 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:54:23,981 | INFO | Waiting for motion...
+2026-03-03 04:54:27,611 | INFO | Motion detected!
+2026-03-03 04:54:28,890 | INFO | Image saved: data/images/capture_20260303_045427.jpg
+2026-03-03 04:54:29,274 | INFO | Detected person (0.84)
+2026-03-03 04:54:29,284 | INFO | Event added to local queue.
+2026-03-03 04:54:31,126 | INFO | Upload success for event 52 (201)
+2026-03-03 04:54:34,284 | INFO | Waiting for motion...
+2026-03-03 04:54:44,920 | INFO | WildPulse Pi Agent Starting...
+2026-03-03 04:54:44,932 | INFO | Motion sensor initialized on GPIO 17
+2026-03-03 04:54:44,933 | INFO | Orchestrator initialized
+2026-03-03 04:54:44,933 | INFO | Loading YOLOv8 Nano model...
+2026-03-03 04:54:44,988 | INFO | Starting upload worker thread...
+2026-03-03 04:54:44,988 | INFO | System armed. Waiting for motion...
+2026-03-03 04:54:44,989 | INFO | Waiting for motion...
+2026-03-03 04:54:48,136 | INFO | Motion detected!
+2026-03-03 04:54:49,364 | INFO | Image saved: data/images/capture_20260303_045448.jpg
+2026-03-03 04:54:49,855 | INFO | Detected person (0.46)
+2026-03-03 04:54:49,855 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:54:49,855 | INFO | Waiting for motion...
+2026-03-03 04:54:53,746 | INFO | Motion detected!
+2026-03-03 04:54:55,007 | INFO | Image saved: data/images/capture_20260303_045453.jpg
+2026-03-03 04:54:55,415 | INFO | Detected cat (0.33)
+2026-03-03 04:54:55,415 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:54:55,415 | INFO | Waiting for motion...
+2026-03-03 04:54:55,415 | INFO | Motion detected!
+2026-03-03 04:54:56,647 | INFO | Image saved: data/images/capture_20260303_045455.jpg
+2026-03-03 04:54:57,040 | INFO | Detected cat (0.47)
+2026-03-03 04:54:57,040 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:54:57,040 | INFO | Waiting for motion...
+2026-03-03 04:54:58,457 | INFO | Motion detected!
+2026-03-03 04:54:59,692 | INFO | Image saved: data/images/capture_20260303_045458.jpg
+2026-03-03 04:55:00,076 | INFO | Detected cat (0.43)
+2026-03-03 04:55:00,076 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:55:00,077 | INFO | Waiting for motion...
+2026-03-03 04:55:03,165 | INFO | Motion detected!
+2026-03-03 04:55:04,448 | INFO | Image saved: data/images/capture_20260303_045503.jpg
+2026-03-03 04:55:04,852 | INFO | Detected person (0.41)
+2026-03-03 04:55:04,853 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:55:04,853 | INFO | Waiting for motion...
+2026-03-03 04:55:07,070 | INFO | Motion detected!
+2026-03-03 04:55:08,315 | INFO | Image saved: data/images/capture_20260303_045507.jpg
+2026-03-03 04:55:08,745 | INFO | No objects detected.
+2026-03-03 04:55:08,745 | INFO | Waiting for motion...
+2026-03-03 04:55:12,379 | INFO | Motion detected!
+2026-03-03 04:55:13,638 | INFO | Image saved: data/images/capture_20260303_045512.jpg
+2026-03-03 04:55:14,042 | INFO | Detected person (0.86)
+2026-03-03 04:55:14,053 | INFO | Event added to local queue.
+2026-03-03 04:55:15,262 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:17,575 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:19,053 | INFO | Waiting for motion...
+2026-03-03 04:55:19,815 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:22,134 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:24,387 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:26,735 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:28,003 | INFO | Motion detected!
+2026-03-03 04:55:29,016 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:29,266 | INFO | Image saved: data/images/capture_20260303_045528.jpg
+2026-03-03 04:55:29,661 | INFO | Detected person (0.7)
+2026-03-03 04:55:29,675 | INFO | Event added to local queue.
+2026-03-03 04:55:31,269 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:33,708 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:34,675 | INFO | Waiting for motion...
+2026-03-03 04:55:36,347 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:38,419 | INFO | Motion detected!
+2026-03-03 04:55:38,617 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:39,691 | INFO | Image saved: data/images/capture_20260303_045538.jpg
+2026-03-03 04:55:40,080 | INFO | Detected traffic light (0.53)
+2026-03-03 04:55:40,089 | INFO | Event added to local queue.
+2026-03-03 04:55:40,861 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:43,520 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:45,089 | INFO | Waiting for motion...
+2026-03-03 04:55:45,761 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:47,933 | INFO | Motion detected!
+2026-03-03 04:55:48,085 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:49,165 | INFO | Image saved: data/images/capture_20260303_045547.jpg
+2026-03-03 04:55:49,559 | INFO | Detected traffic light (0.3)
+2026-03-03 04:55:49,559 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:55:49,559 | INFO | Waiting for motion...
+2026-03-03 04:55:51,343 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:53,542 | INFO | Motion detected!
+2026-03-03 04:55:54,107 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:55:54,799 | INFO | Image saved: data/images/capture_20260303_045553.jpg
+2026-03-03 04:55:55,191 | INFO | No objects detected.
+2026-03-03 04:55:55,191 | INFO | Waiting for motion...
+2026-03-03 04:55:57,981 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:00,153 | INFO | Motion detected!
+2026-03-03 04:56:00,342 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:01,403 | INFO | Image saved: data/images/capture_20260303_045600.jpg
+2026-03-03 04:56:01,795 | INFO | No objects detected.
+2026-03-03 04:56:01,795 | INFO | Waiting for motion...
+2026-03-03 04:56:02,718 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:04,760 | INFO | Motion detected!
+2026-03-03 04:56:05,120 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:06,029 | INFO | Image saved: data/images/capture_20260303_045604.jpg
+2026-03-03 04:56:06,424 | INFO | Detected traffic light (0.46)
+2026-03-03 04:56:06,424 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:56:06,425 | INFO | Waiting for motion...
+2026-03-03 04:56:07,382 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:09,670 | INFO | Motion detected!
+2026-03-03 04:56:09,863 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:10,923 | INFO | Image saved: data/images/capture_20260303_045609.jpg
+2026-03-03 04:56:11,341 | INFO | Detected traffic light (0.27)
+2026-03-03 04:56:11,342 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:56:11,342 | INFO | Waiting for motion...
+2026-03-03 04:56:12,836 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:14,981 | INFO | Motion detected!
+2026-03-03 04:56:15,161 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:16,211 | INFO | Image saved: data/images/capture_20260303_045614.jpg
+2026-03-03 04:56:16,613 | INFO | Detected traffic light (0.39)
+2026-03-03 04:56:16,614 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:56:16,614 | INFO | Waiting for motion...
+2026-03-03 04:56:17,515 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:19,688 | INFO | Motion detected!
+2026-03-03 04:56:19,839 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:20,901 | INFO | Image saved: data/images/capture_20260303_045619.jpg
+2026-03-03 04:56:21,311 | INFO | Detected traffic light (0.33)
+2026-03-03 04:56:21,311 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:56:21,311 | INFO | Waiting for motion...
+2026-03-03 04:56:22,113 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:24,295 | INFO | Motion detected!
+2026-03-03 04:56:24,453 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:25,507 | INFO | Image saved: data/images/capture_20260303_045624.jpg
+2026-03-03 04:56:25,892 | INFO | No objects detected.
+2026-03-03 04:56:25,892 | INFO | Waiting for motion...
+2026-03-03 04:56:26,789 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:28,902 | INFO | Motion detected!
+2026-03-03 04:56:29,124 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:30,157 | INFO | Image saved: data/images/capture_20260303_045628.jpg
+2026-03-03 04:56:30,563 | INFO | Detected traffic light (0.32)
+2026-03-03 04:56:30,564 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:56:30,564 | INFO | Waiting for motion...
+2026-03-03 04:56:31,912 | INFO | Motion detected!
+2026-03-03 04:56:31,939 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:33,127 | INFO | Image saved: data/images/capture_20260303_045631.jpg
+2026-03-03 04:56:33,515 | INFO | No objects detected.
+2026-03-03 04:56:33,516 | INFO | Waiting for motion...
+2026-03-03 04:56:34,244 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:36,419 | INFO | Motion detected!
+2026-03-03 04:56:36,621 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:37,655 | INFO | Image saved: data/images/capture_20260303_045636.jpg
+2026-03-03 04:56:38,040 | INFO | No objects detected.
+2026-03-03 04:56:38,040 | INFO | Waiting for motion...
+2026-03-03 04:56:38,936 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:41,028 | INFO | Motion detected!
+2026-03-03 04:56:41,162 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:42,274 | INFO | Image saved: data/images/capture_20260303_045641.jpg
+2026-03-03 04:56:42,677 | INFO | No objects detected.
+2026-03-03 04:56:42,678 | INFO | Waiting for motion...
+2026-03-03 04:56:43,535 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:45,636 | INFO | Motion detected!
+2026-03-03 04:56:45,835 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:46,888 | INFO | Image saved: data/images/capture_20260303_045645.jpg
+2026-03-03 04:56:47,277 | INFO | No objects detected.
+2026-03-03 04:56:47,278 | INFO | Waiting for motion...
+2026-03-03 04:56:48,100 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:50,346 | INFO | Motion detected!
+2026-03-03 04:56:50,526 | WARNING | Upload not acknowledged for event 53: status=201, body={"message":"Capture discarded by rule engine","reason":"no_active_rule"}
+2026-03-03 04:56:51,587 | INFO | Image saved: data/images/capture_20260303_045650.jpg
+2026-03-03 04:56:56,552 | INFO | WildPulse Pi Agent Starting...
+2026-03-03 04:56:56,565 | INFO | Motion sensor initialized on GPIO 17
+2026-03-03 04:56:56,565 | INFO | Orchestrator initialized
+2026-03-03 04:56:56,565 | INFO | Loading YOLOv8 Nano model...
+2026-03-03 04:56:56,618 | INFO | Starting upload worker thread...
+2026-03-03 04:56:56,618 | INFO | System armed. Waiting for motion...
+2026-03-03 04:56:56,619 | INFO | Waiting for motion...
+2026-03-03 04:56:56,665 | INFO | Motion detected!
+2026-03-03 04:56:56,916 | INFO | Upload success for event 53 (201)
+2026-03-03 04:56:56,925 | INFO | Deleted local image after successful upload: data/images/capture_20260303_045512.jpg
+2026-03-03 04:56:57,890 | INFO | Image saved: data/images/capture_20260303_045656.jpg
+2026-03-03 04:56:58,377 | INFO | No objects detected.
+2026-03-03 04:56:58,377 | INFO | Waiting for motion...
+2026-03-03 04:56:59,240 | INFO | Upload success for event 54 (201)
+2026-03-03 04:56:59,251 | INFO | Deleted local image after successful upload: data/images/capture_20260303_045528.jpg
+2026-03-03 04:57:01,374 | INFO | Motion detected!
+2026-03-03 04:57:01,504 | INFO | Upload success for event 55 (201)
+2026-03-03 04:57:01,515 | INFO | Deleted local image after successful upload: data/images/capture_20260303_045538.jpg
+2026-03-03 04:57:02,656 | INFO | Image saved: data/images/capture_20260303_045701.jpg
+2026-03-03 04:57:03,081 | INFO | Detected cat (0.33)
+2026-03-03 04:57:03,081 | INFO | Confidence below threshold. Discarding.
+2026-03-03 04:57:03,081 | INFO | Waiting for motion...
